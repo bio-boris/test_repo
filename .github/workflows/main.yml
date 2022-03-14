@@ -13,4 +13,4 @@ jobs:
         shell: bash
         run: |
           echo "Building docker image and running unit tests"
-          docker run -it --entrypoint=/bin/bash  ubuntu -c "ls"
+          docker run  --entrypoint=/bin/bash  ubuntu -c "ls"
